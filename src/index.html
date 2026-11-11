@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sujith V M | DevOps Engineer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand">SUJITH<span>.DEVOPS</span></a>
+      <ul class="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#pipeline">Pipeline Status</a></li>
+        <li><a href="#contact" class="btn-small">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="status-pill">
+        <span class="dot"></span> Available for Entry-Level DevOps Roles
+      </div>
+      <h1>Sujith V M</h1>
+      <h2 class="role">DevOps Engineer (Fresher) &amp; ECE Graduate</h2>
+      <p class="summary">
+        Hands-on experience in containerization, multi-container orchestration, CI/CD automation, and deployment of full-stack MERN applications using Docker, Docker Compose, GitHub Actions, and Git. Experienced in externalizing configuration, documenting architecture, and automating build and delivery workflows.
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/sujithmadeshwaran" target="_blank" class="btn btn-primary">GitHub Profile</a>
+        <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Technical Skills -->
+    <section id="skills" class="section">
+      <h3 class="section-heading">Technical Skills</h3>
+      <div class="grid-3">
+        <div class="card">
+          <span class="badge">Containerization</span>
+          <h4>Docker &amp; Orchestration</h4>
+          <p>Docker, Dockerfile, Docker Compose, container networking, persistent volumes, multi-stage image builds.</p>
+        </div>
+        <div class="card">
+          <span class="badge">CI/CD &amp; Version Control</span>
+          <h4>Automation &amp; Git</h4>
+          <p>GitHub Actions, workflow automation, automated build/deployment pipelines, Git branching, commit history management.</p>
+        </div>
+        <div class="card">
+          <span class="badge">Stack &amp; Practices</span>
+          <h4>App Stack &amp; Operations</h4>
+          <p>Node.js, Express.js, React, MongoDB, Nginx, Python scripting, environment variable &amp; secret externalization.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="section">
+      <h3 class="section-heading">Featured Engineering Projects</h3>
+      <div class="grid-2">
+        <div class="card project-card">
+          <div class="project-header">
+            <span class="badge">MERN CI/CD &amp; Docker</span>
+            <a href="https://github.com/sujithmadeshwaran/clouddeploy" target="_blank" class="ext-link">github.com/sujithmadeshwaran/clouddeploy &nearr;</a>
+          </div>
+          <h4>CloudDeploy: Containerized Deployment &amp; CI/CD Pipeline</h4>
+          <ul class="project-points">
+            <li>Containerized full-stack ProShop v2 (React, Node.js/Express, MongoDB) using <code>node:20-alpine</code> running in production on port 5000.</li>
+            <li>Orchestrated multi-container services with Docker Compose on a custom bridge network with persistent named volumes and dependency ordering.</li>
+            <li>Externalized secrets (<code>MONGO_URI</code>, <code>JWT_SECRET</code>, <code>PORT</code>, <code>NODE_ENV</code>, <code>PAYPAL_CLIENT_ID</code>) via <code>.env</code> templates.</li>
+            <li>Automated build and delivery workflows via GitHub Actions across 150+ structured Git commits.</li>
+          </ul>
+        </div>
+
+        <div class="card project-card">
+          <div class="project-header">
+            <span class="badge">Security Automation</span>
+            <a href="https://github.com/sujithmadeshwaran" target="_blank" class="ext-link">GitHub &nearr;</a>
+          </div>
+          <h4>DEFENX: Python Security Scanning Tool</h4>
+          <ul class="project-points">
+            <li>Built and documented a Python-based automated security scanning tool.</li>
+            <li>Engineered a responsive real-time GUI with multithreaded execution for fast local system audits.</li>
+            <li>Integrated live CVE vulnerability APIs to detect and report security advisories dynamically.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience, Education & Leadership -->
+    <section id="experience" class="section">
+      <h3 class="section-heading">Experience, Education &amp; Leadership</h3>
+      <div class="grid-3">
+        <div class="card">
+          <span class="badge">Experience (3 Months)</span>
+          <h4>HR Intern</h4>
+          <p class="org">Atozerv India Pvt Ltd</p>
+          <p>Managed end-to-end candidate outreach, follow-up, and pipeline tracking for open roles in alignment with hiring stakeholders.</p>
+        </div>
+        <div class="card">
+          <span class="badge">Education</span>
+          <h4>B.E. ECE (CGPA: 7.94)</h4>
+          <p class="org">Velalar College of Engineering and Technology</p>
+          <p>Electronics and Communication Engineering graduate with strong foundations in systems and Python scripting.</p>
+        </div>
+        <div class="card">
+          <span class="badge">Leadership (Feb 2025 - Jan 2026)</span>
+          <h4>Secretary, IEEE Student Branch</h4>
+          <p class="org">VCET</p>
+          <p>Organized technical events and coordinated branch operations, communications, and cross-team activities.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live DevOps Pipeline Tracker (Interactive JS Component) -->
+    <section id="pipeline" class="section">
+      <h3 class="section-heading">RyniX Internship Pipeline Status</h3>
+      <div class="card terminal-card">
+        <div class="terminal-bar">
+          <div class="terminal-dots">
+            <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+          </div>
+          <span class="terminal-title">devops-pipeline-monitor — bash</span>
+          <span id="live-time" class="mono-text">--:--:--</span>
+        </div>
+        <div class="pipeline-grid" id="pipeline-stages">
+          <div class="stage active" data-stage="1">
+            <span class="stage-step">WEEK 01</span>
+            <h5>App &amp; Git Setup</h5>
+            <p>HTML/CSS/JS, Linux Structure, Git Branching</p>
+            <span class="stage-status">COMPLETED</span>
+          </div>
+          <div class="stage" data-stage="2">
+            <span class="stage-step">WEEK 02</span>
+            <h5>Containerization</h5>
+            <p>Nginx Config, Dockerfile, Image &amp; Port Mapping</p>
+            <span class="stage-status">PENDING</span>
+          </div>
+          <div class="stage" data-stage="3">
+            <span class="stage-step">WEEK 03</span>
+            <h5>CI/CD Automation</h5>
+            <p>GitHub Actions Workflow, Automated Docker Builds</p>
+            <span class="stage-status">PENDING</span>
+          </div>
+          <div class="stage" data-stage="4">
+            <span class="stage-step">WEEK 04</span>
+            <h5>Deployment &amp; Docs</h5>
+            <p>Docker Compose, Shell Scripts, Final README</p>
+            <span class="stage-status">PENDING</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="card contact-card">
+        <h3>Get In Touch</h3>
+        <p>Erode, Tamil Nadu, India | Languages: Tamil (Native), English (Professional)</p>
+        <div class="contact-links">
+          <a href="mailto:sujithmadeshwaran@gmail.com" class="btn btn-primary">sujithmadeshwaran@gmail.com</a>
+          <a href="tel:+918098402794" class="btn btn-secondary">+91 8098402794</a>
+          <a href="https://github.com/sujithmadeshwaran" target="_blank" class="btn btn-secondary">GitHub: sujithmadeshwaran</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Sujith V M | Built for RyniXsoft Automated DevOps Pipeline Internship</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
