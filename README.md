@@ -26,3 +26,9 @@ rynix-devops-portfolio/
 │   ├── js/app.js
 │   └── index.html
 └── README.md
+```
+
+## Week 1 Progress
+- [x] Designed and structured portfolio web application (`HTML5`, `CSS3`, `JavaScript`).
+- [x] Configured Linux directory layout and Nginx `default.conf`.
+- [x] Initialized Git repository with structured semantic commits and branching workflow.
